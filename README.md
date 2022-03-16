@@ -1,11 +1,11 @@
 # ☕️ Cafe898-8
-> 친구가 운영하는 마카롱 카페, 랜딩페이지 제작
+> 친구가 운영하는 마카롱 카페, 랜딩페이지 제작  
 >luckyjek.github.io/cafe898-8/
 
 </br>
 
 ## 1. 제작 기간 & 참여 인원
-- 2022년 02월 07일 ~ 02월 11일
+- 2022년 02월 07일 ~ 02월 11일(5일)
 - 개인 프로젝트
 
 </br>
@@ -27,14 +27,14 @@
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
 
-### 3.1 랜딩페이지 구조도
+### 3.1 랜딩페이지 전체구조도
 
-![](...) 
+![](https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/site-cafe898-8.png) 
 
-- **의미있는 태그들을 사용하여 작성** :pushpin: [코드 확인]()
+- **의미있는 태그들을 사용하여 작성** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/index.html#L24)
   - 사용자가 URL 입력 시 Http 프로토콜을 생략하거나 공백을 넣은 경우,  
 
-- **URL 접속 확인** :pushpin: [코드 확인]()
+- **URL 접속 확인** 🔎 [코드 확인]()
   - 화면단에서 모양새만 확인한 URL이 실제 리소스로 연결되는지 HttpUrlConnection으로 테스트합니다.
 
 </div>
