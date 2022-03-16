@@ -29,7 +29,7 @@
 
 ### 3.1 랜딩페이지 전체구조도
 
-<img rec="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/site-cafe898-8.png=100x" width="140" height="200"/>
+<img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/site-cafe898-8.png=100x" width="240" height="300"/>
 ![]() 
 
 - **의미있는 태그들을 사용하여 작성** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/index.html#L24)
