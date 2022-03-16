@@ -24,7 +24,7 @@
   - NAVER Maps API 사용한 Cafe표시
 
 <details>
-<summary><b>핵심 기능 설명 펼치기</b></summary>
+<summary><b>핵심 기능 설명 펼쳐보기</b></summary>
 <div markdown="1">
 
 ### 3.1 랜딩페이지 전체구조도
@@ -32,10 +32,19 @@
 <img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/site-cafe898-8.png" width="30%" height="30%" />
 
 - **의미있는 태그들을 사용하여 작성** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/index.html#L24)
-  - 사용자가 URL 입력 시 Http 프로토콜을 생략하거나 공백을 넣은 경우,  
+  - 최대한 의미있는 태그 작성 및 깔끔한 코드를 유지하여 작성하려고 노력
 
-- **URL 접속 확인** 🔎 [코드 확인]()
-  - 화면단에서 모양새만 확인한 URL이 실제 리소스로 연결되는지 HttpUrlConnection으로 테스트합니다.
+### 3.2 마우스 포인트 따라서 움직이는 마카롱
+- **...** 🔎 [코드 확인](...)
+  - ...
+
+### 3.3 사용자가 `메뉴`클릭, 해당 `<section>`으로 이동
+- **...** 🔎 [코드 확인](...)
+  - ...
+  
+### 3.4 NAVER Maps API 사용한 Cafe표시
+- **...** 🔎 [코드 확인](...)
+  - ...
 
 </div>
 </details>
