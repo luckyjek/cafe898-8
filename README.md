@@ -58,9 +58,9 @@
 <img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/navermap%20error.png" width="40%" height="40%" />
 
 - 그래서 검색 결과 저는 [Naver Developers](https://developers.naver.com/forum/posts/27590) 라는 개발자 포럼 글을 보고 힌트를 얻었습니다.
-- 공동 저자로 참여할 때 [CORS](https://luckyjek.tistory.com/58?category=1243490) 용어가 생각이 났고,  
-  기존의 local에서 작업하는 환경과 다르므로 배포한 후, 사용하는 URL을 확인하고 다시 설정을 해줘야 한다고 생각했습니다. 
-- 따라서 서비스 환경 등록에 https://luckyjek.github.io 추가한 후, 제대로 불러와지는 것을 확인하였습니다.
+- 이때 저는 공동 저자로 참여할 때 [CORS](https://luckyjek.tistory.com/58?category=1243490) 용어가 생각이 났고,  
+  당연히 기존의 local에서 작업하는 환경과 URL은 다르므로 배포한 후,  
+  사용하는 URL을 확인하고 Naver API 콘솔, 서비스 환경 등록에 https://luckyjek.github.io 추가한 후, 제대로 불러와지는 것을 확인하였습니다.
 
 </br>
 
