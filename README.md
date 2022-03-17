@@ -46,7 +46,6 @@
 ### 3.4 NAVER Maps API 사용한 Cafe표시
 - **Cafe898-8의 위치표시** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/map.js#1)
   - Google지도의 GPS좌표(위도, 경도) 사용
-  - https://navermaps.github.io/maps.js.ncp/docs/tutorial-2-Getting-Started.html 에서 참고
   
 </div>
 </details>
