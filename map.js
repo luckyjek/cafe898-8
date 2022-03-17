@@ -8,12 +8,12 @@ let data = [
     }
 ]
 
-var mapOptions = {
+let mapOptions = {
     center: new naver.maps.LatLng(37.3595704, 127.105399),
     zoom: 10
 };
 
-var map = new naver.maps.Map('map', mapOptions);
+let map = new naver.maps.Map('map', mapOptions);
 
 for(let i in data){
     let target = data[i];
