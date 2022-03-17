@@ -64,7 +64,7 @@
 
 </br>
 
-## 6. 회고/느낀점
+## 5. 회고/느낀점
 >블록체인 교육 이수를 한 후, 저의 부족함을 많이 느꼈습니다.  
 >그래서 HTML, CSS, JavaScript를 [Front-end 로드맵을 따라가며 TIL](https://github.com/luckyjek/TIL) 저장소와 Blog에 기록하였습니다.   
 >이는 Front-end의 큰 그림을 이해하는 데 많은 도움이 되었습니다.  
