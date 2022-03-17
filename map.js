@@ -1,4 +1,4 @@
-let data = [
+const data = [
     {
         title: 'cafa-898-8',
         content: '서울 남산',
@@ -8,17 +8,18 @@ let data = [
     }
 ]
 
-let mapOptions = {
+const mapOptions = {
     center: new naver.maps.LatLng(37.3595704, 127.105399),
     zoom: 10
 };
 
-let map = new naver.maps.Map('map', mapOptions);
+const map = new naver.maps.Map('map', mapOptions);
 
 for(let i in data){
+    //console.log(data);
     let target = data[i];
-    let  latlng= new naver.maps.LatLng(target.lat, target.lng);
-    console.log(latlng);
+    let latlng= new naver.maps.LatLng(target.lat, target.lng);
+    //console.log(latlng);
     maker = new naver.maps.Marker({
     map:map,
     position: latlng,
