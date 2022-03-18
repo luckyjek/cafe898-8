@@ -55,7 +55,7 @@
 ## 4. 핵심 트러블 슈팅
 ### 4.1 배포할 때 Open API 인증 실패 문제
 - 배포하기 전, 개발 단계에서는 지도 API 호출이 잘 되었습니다. 하지만 배포한 후, 아래와 같이 console 창에 인증 실패가 나타났습니다.
-<img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/navermap%20error.png" width="40%" height="40%" />
+<img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/navermap%20error.png" width="100%" height="100%" />
 
 - 그래서 검색 결과 저는 [Naver Developers](https://developers.naver.com/forum/posts/27590) 라는 개발자 포럼 글을 보고 힌트를 얻었습니다.
 - 이때 저는 공동 저자로 참여할 때 [CORS](https://luckyjek.tistory.com/58?category=1243490) 용어가 생각이 났고,  
