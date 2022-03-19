@@ -39,10 +39,10 @@
   - 마우스 포인터의 `x` 및 `y` 좌표를 변수 `x` 및 `y`에 저장    
   
 ### 3.3 사용자 지정 데이터, data-* 사용
-- **사용자가 `메뉴` 클릭, 해당 `<section>`로 이동** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/main.js#24)
+- **사용자가 `메뉴` 클릭, 해당 `<section>`로 이동** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/main.js#L24)
   
 ### 3.4 NAVER Maps API 사용한 Cafe 위치 표시
-- **Cafe898-8의 위치 표시** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/map.js#1)
+- **Cafe898-8의 위치 표시** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/map.js#L18)
   - Google 지도의 GPS 좌표(위도, 경도) 사용
   
 </div>
