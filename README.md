@@ -32,18 +32,18 @@
 <img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/site-cafe898-8.png" width="30%" height="30%" />
 
 - **의미 있는 태그들을 사용하여 작성** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/index.html#L24)
-  - 최대한 의미 있는 태그 작성 및 깔끔한 코드를 유지하여 작성하려고 노력
+  - 최대한 의미 있는 태그 작성 및 깔끔한 코드를 유지하여 작성하려고 노력하였습니다.
 
 ### 3.2 Mousemove Event 사용한, 마우스 포인터 따라서 움직이는 마카롱
 - **마우스가 페이지 위에서 이동 시, `mousemove` 이벤트가 발생** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/main.js#L3)  
-  - 마우스 포인터의 `x` 및 `y` 좌표를 변수 `x` 및 `y`에 저장    
+  - 마우스 포인터의 `x`와 `y` 좌표를 target 변수를 만들어 구현했습니다.
   
 ### 3.3 사용자 지정 데이터, data-* 사용
 - **사용자가 `메뉴` 클릭, 해당 `<section>`로 이동** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/main.js#L24)
   
 ### 3.4 NAVER Maps API 사용한 Cafe 위치 표시
 - **Cafe898-8의 위치 표시** 🔎 [코드 확인](https://github.com/luckyjek/cafe898-8/blob/main/map.js#L18)
-  - Google 지도의 GPS 좌표(위도, 경도) 사용
+  - 지도의 GPS 좌표는 Google Maps의 위도, 경도 사용했습니다.
   
 </div>
 </details>
