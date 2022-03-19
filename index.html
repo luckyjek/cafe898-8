@@ -1,206 +1,198 @@
 <!DOCTYPE html>
 <html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>cafe898-8</title>
+        <meta name="description" content="Portfolio for world-renowned software engineer Elin" />
+        <meta name="author" content="Elin" />
+        <link rel="icon" type="image/png" href="imgs/favicon.png" />
+        <script src="https://kit.fontawesome.com/1192e39070.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Brush+Script&family=PT+Sans:wght@700&display=swap" rel="stylesheet" />
+        <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=b4clq7cr12"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js" defer></script>
+        <script src="map.js" defer></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cafe898-8</title>
-    <meta name="description" content="Portfolio for world-renowned software engineer Elin" />
-    <meta name="author" content="Elin" />
-    <link rel="icon" type="image/png" href="imgs/favicon.png" />
-    <script src="https://kit.fontawesome.com/1192e39070.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Brush+Script&family=PT+Sans:wght@700&display=swap" rel="stylesheet" />
-    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=b4clq7cr12"></script>
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-    <script src="map.js" defer></script>
+    <body>
+        <!--Mouse Move-->
+        <img class="target" src="./imgs/macaron-ms.png" alt="macaron image">
 
-</head>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="navbar__logo">
+                <a href="#" class="navbar__logo"><img class="navbar__logo-img" src="./imgs/cafe-logo.png"
+                        alt="cafa898-8 logo"></a>
+            </div>
+            <div>
+                <ul class="navbar__menu">
+                    <li class="navbar__menu__item" data-link="#story"> <i class="fas fa-store-alt"></i> Story</li>
+                    <li class="navbar__menu__item" data-link="#magazine"> <i class="far fa-clipboard"></i> Magazine</li>
+                    <li class="navbar__menu__item" data-link="#products"><i class="fas fa-mug-hot"></i> Products</li>
+                    <li class="navbar__menu__item" data-link="#store">
+                        <i class="fas fa-map-marker-alt"></i> Store
+                    </li>
+                    <li class="navbar__menu__item" data-link="#contact"> <i class="fab fa-instagram"></i> 인스타그램</li>
+                </ul>
+            </div>
+            <!--Toggle button-->
+            <button class="navbar__toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
 
-<body>
-    <!--Mouse Move-->
-    <img class="target" src="./imgs/macaron-ms.png" alt="macaron image">
-
-    <!-- Navbar -->
-    <nav id="navbar">
-        <div class="navbar__logo">
-            <a href="#" class="navbar__logo"><img class="navbar__logo-img" src="./imgs/cafe-logo.png"
-                    alt="cafa898-8 logo"></a>
-        </div>
-        <div>
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item" data-link="#story"> <i class="fas fa-store-alt"></i> Story</li>
-                <li class="navbar__menu__item" data-link="#magazine"> <i class="far fa-clipboard"></i> Magazine</li>
-                <li class="navbar__menu__item" data-link="#products"><i class="fas fa-mug-hot"></i> Products</li>
-                <li class="navbar__menu__item" data-link="#store">
-                    <i class="fas fa-map-marker-alt"></i> Store
-                </li>
-                <li class="navbar__menu__item" data-link="#contact"> <i class="fab fa-instagram"></i> 인스타그램</li>
-            </ul>
-        </div>
-        <!--Toggle button-->
-        <button class="navbar__toggle-btn">
-            <i class="fas fa-bars"></i>
-        </button>
-    </nav>
-
-    <!-- Home -->
-    <section id="home">
-        <div class="home__container">
-            <h2 class="home__description">
-                전직 디자이너가 조색 및 직접 만드는 수제 디저트
-                <br />
-                분위기에 취하고싶다면?
-            </h2>
-        </div>
-        <button class="home__contact" data-link="#contact">
-            Contact Us
-        </button>
-    </section>
-
-    <!-- Story -->
-    <section id="story" class="section story__img-bg">
-        <h1><i class="fas fa-store-alt"></i> Story</h1>
-        <span class="story__img">
-            <img src="./imgs/story/story.jpg" class="story__img-img" alt="cafe898-8">
-            <div class="story__img_description">
-                <p class="story__img_description-font">
-                    카페898-8는 고객이 만족할 수 있도록 노력하는가게입니다. <br />
-                    다년간의 준비 과정을 거쳐 특별하고 맛있는 <br />
-                    음료와 최고의 프리미엄 디저트만을 선보입니다. <br />
+        <!-- Home -->
+        <section id="home">
+            <div class="home__container">
+                <h2 class="home__description">
+                    전직 디자이너가 조색 및 직접 만드는 수제 디저트
                     <br />
-                    고객님들의 100% 만족을 위해, <br />
-                    하루하루 더 발전하는 카페898-8가 되겠습니다. <br />
-                    <br />
-                    지금처럼 많이많이 사랑해주세요 :)
-                </p>
+                    분위기에 취하고싶다면?
+                </h2>
             </div>
-        </span>
-    </section>
+            <button class="home__contact" data-link="#contact">
+                Contact Us
+            </button>
+        </section>
 
-    <!-- Magazine -->
-    <section id="magazine" class="section">
-        <h1><i class="far fa-clipboard"></i> Magazine</h1>
-        <h2 class="magazine__main-description">cafe898-8의 소식</h2>
-        <div class="magazine__container">
-            <div class="magazine__slider">
-                <div id="prev" class="magazine__slider-btn">
-                    <span>&lt;</span> 
+        <!-- Story -->
+        <section id="story" class="section story__img-bg">
+            <h1><i class="fas fa-store-alt"></i> Story</h1>
+            <span class="story__img">
+                <img src="./imgs/story/story.jpg" class="story__img-img" alt="cafe898-8">
+                <div class="story__img_description">
+                    <p class="story__img_description-font">
+                        카페898-8는 고객이 만족할 수 있도록 노력하는가게입니다. <br />
+                        다년간의 준비 과정을 거쳐 특별하고 맛있는 <br />
+                        음료와 최고의 프리미엄 디저트만을 선보입니다. <br />
+                        <br />
+                        고객님들의 100% 만족을 위해, <br />
+                        하루하루 더 발전하는 카페898-8가 되겠습니다. <br />
+                        <br />
+                        지금처럼 많이많이 사랑해주세요 :)
+                    </p>
                 </div>
-                <span class="magazine__img">
-                    <img class="magazine__slider-item1 magazine__slider-item showing" src="./imgs/magazine/macaron.jpg" alt="">
-                    <img class="magazine__slider-item2 magazine__slider-item " src="./imgs/magazine/comment.jpg" alt="">
-                    <img class="magazine__slider-item3 magazine__slider-item " src="./imgs/magazine/yogiyo.jpg" alt="">
-                </span>
-                <div id="next" class="magazine__slider-btn">
-                    &gt;
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products -->
-    <section id="products" class="section">
-        <div>
-            <h1><i class="fas fa-mug-hot"></i> Products</h1>
-            <h2 class="produsts__main-description">맛도좋고, 좋은재료들만 사용하는..
-                인기메뉴를 소개합니다.
-            </h2>
-            <br />
-            <div class="products__menu">
-                <a href="#" class="products">
-                    <img src="./imgs/products/macaron.jpeg" class="product__img" alt="macaron image" />
-                    <div class="product__description">
-                        <h3>마카롱</h3>
-                        <span>100%아몬드 가루로 탄수화물 줄이고, 고소함 2배!</br>
-                            각종 좋은재료로 만드는 달달 쫀득한 수제 마카롱!</span>
-                    </div>
-                </a>
-                <a href="#" class="products">
-                    <img src="./imgs/products/affogare.jpg" class="product__img" alt="affogato image" />
-                    <div class="product__description">
-                        <h3>아포가토</h3>
-                        <span>하겐다즈 아이스크림과 진~하고</br>
-                            향~좋은 커피를 함께 즐길 수있는 아포가토</span>
-                    </div>
-                </a>
-                <a href="#" class="products">
-                    <img src="./imgs/products/madeleine.jpg" class="product__img" alt="madeleine image" />
-                    <div class="product__description">
-                        <h3>마들렌</h3>
-                        <span>프랑스 정통 구움과자!</br>
-                            촉촉하고 부드러운 식감을 최대한 살린, 클래식한 마들렌</span>
-                    </div>
-                </a>
-                <br />
-                <a href="#" class="products">
-                    <img src="./imgs/products/green-grape.png" class="product__img" alt="green-grape ade" />
-                    <div class="product__description">
-                        <h3>청포도에이드</h3>
-                        <span>상큼달달함과 청포도 알갱이까지 씹히는!</br>
-                            탄산수와의 최고의조합</span>
-                    </div>
-                </a>
-                <a href="#" class="products">
-                    <img src="./imgs/products/minicake.jpg" class="product__img" alt="mini cake" />
-                    <div class="product__description">
-                        <h3>미니케이크</h3>
-                        <span>촉촉하고 부드러운 시트와,</br>
-                            달달한 다크 초콜릿의 조화</span>
-                    </div>
-                </a>
-                <a href="#" class="products">
-                    <img src="./imgs/products/joyllypong.png" class="product__img" alt="Jollypong shake" />
-                    <div class="product__description">
-                        <h3>조리퐁쉐이크</h3>
-                        <span>죠리퐁+하겐다즈 아이스크림의 만남!</br>
-                            재료를 아끼지 않고, 가득가득 들어간 천상의 조합</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Store-->
-    <section id="store" class="section">
-        <h1><i class="fas fa-map-marker-alt"></i> Store</h1>
-        <h2 class="store__addr-description">계산동 898-8 월드빌 1층</h2>
-        <div class="map__container">
-            <div id="map" style="width:70%;height:400px;"></div>
-        </div>
-    </section>
-
-    <!-- 인스타그램(contact) -->
-    <section id="contact" class="section contact-us">
-        <h1 class="contact__title">Contact Us</h1>
-        <div class="contact__links">
-            <a href="https://www.instagram.com/cafe_8988/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <!-- https://sebhastian.com/html-hover-text/ -->
-            <span class="contact__text" data-hover="070-4068-8988">
-                <i class="fas fa-phone-square-alt"></i>
             </span>
-        </div>
-        <hr />
-        <div class="contact__addr">
-            <span>All Rights Reserved &copy; Cafe898-8 CO.</span>
-        </div>
-    </section>
+        </section>
 
-    <!--Arrow up-->
-    <button class="arrow-up">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <!-- Magazine -->
+        <section id="magazine" class="section">
+            <h1><i class="far fa-clipboard"></i> Magazine</h1>
+            <h2 class="magazine__main-description">cafe898-8의 소식</h2>
+            <div class="magazine__container">
+                <div class="magazine__slider">
+                    <div id="prev" class="magazine__slider-btn">
+                        <span>&lt;</span> 
+                    </div>
+                    <span class="magazine__img">
+                        <img class="magazine__slider-item1 magazine__slider-item showing" src="./imgs/magazine/macaron.jpg" alt="">
+                        <img class="magazine__slider-item2 magazine__slider-item " src="./imgs/magazine/comment.jpg" alt="">
+                        <img class="magazine__slider-item3 magazine__slider-item " src="./imgs/magazine/yogiyo.jpg" alt="">
+                    </span>
+                    <div id="next" class="magazine__slider-btn">
+                        &gt;
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script>
-       
-   
-     </script>
-</body>
+        <!-- Products -->
+        <section id="products" class="section">
+            <div>
+                <h1><i class="fas fa-mug-hot"></i> Products</h1>
+                <h2 class="produsts__main-description">맛도좋고, 좋은재료들만 사용하는..
+                    인기메뉴를 소개합니다.
+                </h2>
+                <br />
+                <div class="products__menu">
+                    <a href="#" class="products">
+                        <img src="./imgs/products/macaron.jpeg" class="product__img" alt="macaron image" />
+                        <div class="product__description">
+                            <h3>마카롱</h3>
+                            <span>100%아몬드 가루로 탄수화물 줄이고, 고소함 2배!</br>
+                                각종 좋은재료로 만드는 달달 쫀득한 수제 마카롱!</span>
+                        </div>
+                    </a>
+                    <a href="#" class="products">
+                        <img src="./imgs/products/affogare.jpg" class="product__img" alt="affogato image" />
+                        <div class="product__description">
+                            <h3>아포가토</h3>
+                            <span>하겐다즈 아이스크림과 진~하고</br>
+                                향~좋은 커피를 함께 즐길 수있는 아포가토</span>
+                        </div>
+                    </a>
+                    <a href="#" class="products">
+                        <img src="./imgs/products/madeleine.jpg" class="product__img" alt="madeleine image" />
+                        <div class="product__description">
+                            <h3>마들렌</h3>
+                            <span>프랑스 정통 구움과자!</br>
+                                촉촉하고 부드러운 식감을 최대한 살린, 클래식한 마들렌</span>
+                        </div>
+                    </a>
+                    <br />
+                    <a href="#" class="products">
+                        <img src="./imgs/products/green-grape.png" class="product__img" alt="green-grape ade" />
+                        <div class="product__description">
+                            <h3>청포도에이드</h3>
+                            <span>상큼달달함과 청포도 알갱이까지 씹히는!</br>
+                                탄산수와의 최고의조합</span>
+                        </div>
+                    </a>
+                    <a href="#" class="products">
+                        <img src="./imgs/products/minicake.jpg" class="product__img" alt="mini cake" />
+                        <div class="product__description">
+                            <h3>미니케이크</h3>
+                            <span>촉촉하고 부드러운 시트와,</br>
+                                달달한 다크 초콜릿의 조화</span>
+                        </div>
+                    </a>
+                    <a href="#" class="products">
+                        <img src="./imgs/products/joyllypong.png" class="product__img" alt="Jollypong shake" />
+                        <div class="product__description">
+                            <h3>조리퐁쉐이크</h3>
+                            <span>죠리퐁+하겐다즈 아이스크림의 만남!</br>
+                                재료를 아끼지 않고, 가득가득 들어간 천상의 조합</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
+        <!-- Store-->
+        <section id="store" class="section">
+            <h1><i class="fas fa-map-marker-alt"></i> Store</h1>
+            <h2 class="store__addr-description">계산동 898-8 월드빌 1층</h2>
+            <div class="map__container">
+                <div id="map" style="width:70%;height:400px;"></div>
+            </div>
+        </section>
+
+        <!-- 인스타그램(contact) -->
+        <section id="contact" class="section contact-us">
+            <h1 class="contact__title">Contact Us</h1>
+            <div class="contact__links">
+                <a href="https://www.instagram.com/cafe_8988/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <!-- https://sebhastian.com/html-hover-text/ -->
+                <span class="contact__text" data-hover="070-4068-8988">
+                    <i class="fas fa-phone-square-alt"></i>
+                </span>
+            </div>
+            <hr />
+            <div class="contact__addr">
+                <span>All Rights Reserved &copy; Cafe898-8 CO.</span>
+            </div>
+        </section>
+
+        <!--Arrow up-->
+        <button class="arrow-up">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </body>
 </html>
