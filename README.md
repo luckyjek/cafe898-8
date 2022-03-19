@@ -57,7 +57,7 @@
 <img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/navermap%20error.png" width="100%" height="100%" />
 
 - 그래서 검색 결과 저는 [Naver Developers](https://developers.naver.com/forum/posts/27590) 라는 개발자 포럼 글을 보고 힌트를 얻었습니다.
-- 포럼 글을 보고 힌트를 얻을 수 있었던 이유는 일전에 공동 저자로 참여할 때  
+- 포럼 글을 보고 힌트를 얻을 수 있었던 이유는 일전에 `공동 저자`로 참여할 때  
   [CORS](https://luckyjek.tistory.com/58?category=1243490) 용어를 집필하면서 공부했던 것이 도움이 되었습니다.  
 - 이에 대한 해결책은 기존의 local에서 작업하는 환경과 배포한 후 환경 즉, 사용하는 URL이 다르므로  
   이를 확인하고 Naver API 콘솔에서 `서비스 환경 등록`에 배포한 새로운 URL을 추가한 후,  
