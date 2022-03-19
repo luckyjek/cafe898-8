@@ -58,9 +58,11 @@
 <img src="https://github.com/luckyjek/dream_coding/blob/main/portfolio/imgs/portfolio/navermap%20error.png" width="100%" height="100%" />
 
 - 그래서 검색 결과 저는 [Naver Developers](https://developers.naver.com/forum/posts/27590) 라는 개발자 포럼 글을 보고 힌트를 얻었습니다.
-- 포럼 글을 보고 힌트를 얻을 수 있었던 것은 일전에 공동 저자로 참여할 때 [CORS](https://luckyjek.tistory.com/58?category=1243490) 용어를 집필하면서 공부했던 것이 도움이 되었습니다.
-  이에 대한 해결책은 기존의 local에서 작업하는 환경과 배포한 후 환경 즉, 사용하는 URL이 다르므로    
-  이를 확인하고 Naver API 콘솔에서 `서비스 환경 등록`에 배포한 새로운 URL을 추가한 후, 제대로 불러와지는 것을 확인하였습니다.
+- 포럼 글을 보고 힌트를 얻을 수 있었던 이유는 일전에 공동 저자로 참여할 때  
+  [CORS](https://luckyjek.tistory.com/58?category=1243490) 용어를 집필하면서 공부했던 것이 도움이 되었습니다.  
+- 이에 대한 해결책은 기존의 local에서 작업하는 환경과 배포한 후 환경 즉, 사용하는 URL이 다르므로  
+  이를 확인하고 Naver API 콘솔에서 `서비스 환경 등록`에 배포한 새로운 URL을 추가한 후,  
+  제대로 불러와지는 것을 확인하였습니다.
 
 </br>
 
@@ -69,7 +71,9 @@
 >그래서 HTML, CSS, JavaScript를 [Front-end 로드맵을 따라가며 TIL](https://github.com/luckyjek/TIL) 저장소와 Blog에 기록하며 공부하였습니다.  
 >이는 Front-end의 큰 그림을 이해하는 데 많은 도움이 되었습니다.  
 >Cafe898-8 프로젝트는 `드림 코딩의 포트폴리오`를 만든 후, 응용하여 첫 번째 개인 프로젝트로 진행하였습니다.  
->프로젝트를 진행하며, HTML, CSS, JavaScript와 브라우저의 원리/동작에 대해 조금 더 깊이 이해할 수 있는 시간이었습니다.  
->그리고 더불어 만든 사이트는 기능은 많이 없지만,  
+>프로젝트를 진행하며, HTML, CSS, JavaScript와 브라우저의 원리/동작에 대해  
+>조금 더 깊이 이해할 수 있는 시간이었습니다.  
+>
+>더불어 만든 사이트는 기능은 많이 없지만,  
 >첫 번째 개인 프로젝트로 친구에게 의미 있는 선물을 해준 것 같아 뜻깊었고,  
 >앞으로 저의 개발자의 인생에 있어 의미 있는 프로젝트 중 하나일 것 같다고 생각했습니다.
