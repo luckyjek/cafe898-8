@@ -68,10 +68,10 @@
 
 ## 5. 회고/느낀점
 >블록체인 교육 이수를 한 후, 저의 부족함을 많이 느꼈습니다.  
->그래서 HTML, CSS, JavaScript를 [Front-end 로드맵을 따라가며 TIL 저장소](https://github.com/luckyjek/TIL)와 [Blog](https://luckyjek.tistory.com/category/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%5B%ED%8C%80%5D%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)에 기록하며 공부하였습니다.  
->이는 Front-end 개발자의 큰 그림을 이해하고, 우선순위를 결정하는 데 있어 많은 도움이 되었습니다.  
+>그래서 HTML, CSS, JavaScript를 [Front-end 로드맵을 따라가며, TIL 저장소](https://github.com/luckyjek/TIL)와 [Blog](https://luckyjek.tistory.com/category/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%5B%ED%8C%80%5D%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)에 기록하며 공부하였습니다.  
+>이는 Front-end 개발자의 큰 그림을 이해하고, 우선순위를 결정하는 데 있어 많은 도움이 되었습니다. 
+> 
 >Cafe898-8 프로젝트는 `드림 코딩의 포트폴리오`를 만든 후, 응용하여 첫 번째 개인 프로젝트로 진행하였습니다.  
->프로젝트를 진행하며, HTML, CSS, JavaScript와 브라우저의 원리/동작에 대해 조금 더 깊이 이해할 수 있는 시간이었습니다.  
->
+>프로젝트를 진행하며 HTML, CSS, JavaScript와 브라우저의 원리/동작에 대해 조금 더 깊이 이해할 수 있는 시간이었습니다.  
 >더불어 만든 사이트는 기능은 많이 없지만, 첫 번째 개인 프로젝트로 친구에게 의미 있는 선물을 해준 것 같아 뜻깊었고,  
->앞으로 저의 개발자의 인생에 있어 의미 있는 프로젝트 중 하나일 것 같다고 생각했습니다.
+>앞으로 저의 개발자의 인생에 있어 의미 있는 프로젝트 중 하나일 것입니다.
