@@ -64,7 +64,7 @@
 
 ## 5. 회고/느낀점
 >블록체인 교육 이수를 한 후, 저의 부족함을 많이 느꼈습니다.  
->그래서 HTML, CSS, JavaScript를 [Front-end 로드맵을 따라가며, TIL 저장소](https://github.com/luckyjek/TIL)와 [Blog](https://luckyjek.tistory.com/category/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%5B%ED%8C%80%5D%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)에 기록하며 공부하였습니다.  
+>그래서 HTML, CSS, JavaScript를 [Front-end 로드맵을 따라가며, Blog에 포스팅한 내용을 GitHub TIL 저장소](https://github.com/luckyjek/TIL)에 기록하며 공부하였습니다.  
 >이는 Front-end 개발자의 큰 그림을 이해하고, 우선순위를 결정하는 데 있어 많은 도움이 되었습니다. 
 > 
 >Cafe898-8 프로젝트는 `드림 코딩의 포트폴리오`를 만든 후, 응용하여 첫 번째 개인 프로젝트로 진행하였습니다.  
